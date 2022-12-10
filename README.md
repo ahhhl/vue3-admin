@@ -167,9 +167,11 @@ module.exports =  {
 
 `npx husky install`
 
-npm set-script prepare "husky install"
+在`package.json`中生成`prepare`指令(需要npm>7.0版本)
+`npm set-script prepare "husky install"`
 
-npm run prepare
+执行prepare指令
+`npm run prepare`
 
 添加`commitlint`的hook到husky中,并指令在`commit-msg`的`hooks`下执行`npx --no-install commitlint --edit "$1"`指令
 
