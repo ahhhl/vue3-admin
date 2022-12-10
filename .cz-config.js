@@ -31,15 +31,15 @@ module.exports = {
     },
     {
       value: 'chore',
-      name: 'chore:     修构建过程或辅助工具的变动'
+      name: 'chore:    构建过程或辅助工具的变动'
     },
     {
       value: 'revert',
-      name: 'revert:     回退'
+      name: 'revert:   回退'
     },
     {
       value: 'build',
-      name: 'build:     打包'
+      name: 'build:    打包'
     }
   ],
   // 消息步骤
