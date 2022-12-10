@@ -51,6 +51,8 @@ module.exports = {
     footer: '请输入要关闭的issue (可选)',
     confirmCommit: '确认要使用以上信息提交? (y/n)'
   },
+  // 跳过问题
+  skipQuestions: ['body', 'footer'],
   // subject文字默认长度
   subjectLimit: 72
 };
